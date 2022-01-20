@@ -25,9 +25,11 @@ class OnMain extends PluginBase implements Listener
     
     public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args): bool
     {
-        if($cmd->getName() === "worldtools"){ 
+        if($cmd->getName() === "worldtools")
+        { 
 
-            if($sender instanceof Player){
+            if($sender instanceof Player)
+            {
                 $sender->sendMessage("Opening UI...");
                 $player = $sender;
                 $this->worldToolsUI($player);
@@ -44,10 +46,12 @@ class OnMain extends PluginBase implements Listener
         $form = $api->createSimpleForm(function (Player $player, int $data = null)
         {
             $result = $data;
-            if($result === null){
+            if($result === null)
+            {
                 return true;
             }
-            switch($result){
+            switch($result)
+            {
                 case 0:
                     $player->sendMessage("Can't create world.");
                 break;
