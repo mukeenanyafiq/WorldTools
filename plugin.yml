@@ -1,0 +1,21 @@
+---
+name: WorldTools
+main: keenanyafiqy\WorldTools\OnMain
+author: keenanyafiqy
+api: [3.0.0, 4.0.0]
+version: 1.0.0-dev1
+website: github.com/keenanyafiqy/WorldTools
+depend: ["FormAPI"]
+
+commands:
+  worldteleport:
+    description: "Opens WorldTools UI"
+    usage: "/worldtools or /wtui"
+    permission: wt.openui.command
+    aliases: ["wtui"]
+
+permissions:
+  wt.openui.command:
+    description: "Allows player to open WorldTools UI"
+    default: true
+...
