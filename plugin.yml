@@ -3,9 +3,8 @@ name: WorldTools
 main: keenanyafiqy\WorldTools\OnMain
 author: keenanyafiqy
 api: [3.0.0, 4.0.0]
-version: 1.0.0-dev1
+version: 1.0.0-dev2
 website: github.com/keenanyafiqy/WorldTools
-depend: ["FormAPI"]
 
 commands:
   worldteleport:
