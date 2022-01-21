@@ -7,7 +7,7 @@ version: 1.0.0-dev2
 website: github.com/keenanyafiqy/WorldTools
 
 commands:
-  worldteleport:
+  worldtools:
     description: "Opens WorldTools UI"
     usage: "/worldtools or /wtui"
     permission: wt.openui.command
