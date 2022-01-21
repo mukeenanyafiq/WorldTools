@@ -42,8 +42,8 @@ class OnMain extends PluginBase implements Listener
 
     public function worldToolsUI($player)
     {
-        $api =$this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form =$api->createSimpleForm(function (Player $player, int $data = null)
+        $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
+        $form = $api->newSimpleForm(function (Player $player, int $data = null)
         {
             $result = $data;
             if($result === null)
