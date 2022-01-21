@@ -9,7 +9,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
 use pocketmine\Server;
 
-use keenanyafiqy\WorldTools\FormOpener;
+use keenanyafiqy\WorldTools\FormAPI\SimpleForm;
 
 class OnMain extends PluginBase implements Listener
 {
@@ -45,7 +45,7 @@ class OnMain extends PluginBase implements Listener
     public function worldToolsUI($player)
     {
         $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-        $form = new FormOpener(function (Player $player, int $data = null)
+        $form = new SimpleForm(function (Player $player, int $data = null)
         {
             $result = $data;
             if($result === null)
