@@ -1,3 +1,4 @@
+> 28/11/2025: This plugin wasn't even supposed to exist in the first place. My little-kid brain thought I could make a competing plugin
 # WorldTools
 A PocketMine plugin with advanced world tools and maybe can beat MultiWorld
 
